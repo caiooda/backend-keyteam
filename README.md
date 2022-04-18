@@ -34,3 +34,33 @@ https://keyteamrestapi.azurewebsites.net/teacher
 
 https://keyteamrestapi.azurewebsites.net/course
 
+
+## REQUEST AND RESPONSE:
+
+**CRUD ESTÁ FUNCIONANDO PARA TODAS AS ROTAS: /user, /student, /teacher, /course**
+
+ROTA UTILIZADA PARA DOCUMENTAÇÃO CASO API AZURE ESTEJA FORA DO AR
+
+- **GET:** course
+
+<div align="center">
+ <img src="https://github.com/caiooda/backend-keyteam/blob/master/img/GET.png" alt="get">
+</div>
+
+- **POST:** course
+
+<div align="center">
+ <img src="https://github.com/caiooda/backend-keyteam/blob/master/img/POST.png" alt="get">
+</div>
+
+- **PUT:** course
+
+<div align="center">
+ <img src="https://github.com/caiooda/backend-keyteam/blob/master/img/PUT.png" alt="get">
+</div>
+
+- **DELETE:** course
+
+<div align="center">
+ <img src="https://github.com/caiooda/backend-keyteam/blob/master/img/DELETE.png" alt="get">
+</div>

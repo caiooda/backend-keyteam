@@ -24,15 +24,15 @@ Rodar Imagem local: docker run -d -p 49160:8080 backend-keyteam (caminho ao roda
 Rodar Imgem remoto DOCKER HUB: docker run -d -p 49160:8080 caiooda/backend-keyteam 
 
 ## APP AZURE:
-https://keyteamrestapi.azurewebsites.net/
+https://keyteamwebapi.azurewebsites.net/
 
-https://keyteamrestapi.azurewebsites.net/user
+https://keyteamwebapi.azurewebsites.net/user
 
-https://keyteamrestapi.azurewebsites.net/student
+https://keyteamwebapi.azurewebsites.net/student
 
-https://keyteamrestapi.azurewebsites.net/teacher
+https://keyteamwebapi.azurewebsites.net/teacher
 
-https://keyteamrestapi.azurewebsites.net/course
+https://keyteamwebapi.azurewebsites.net/course
 
 
 ## REQUEST AND RESPONSE:

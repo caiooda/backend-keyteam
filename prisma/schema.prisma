@@ -9,13 +9,19 @@ datasource db {
 }
 
 model User {
-  id         String   @id @default(uuid())
-  email      String   @unique @db.NVarChar(100)
-  password   String   @db.NVarChar(100)
-  created_at DateTime @default(now())
-  updated_at DateTime @updatedAt
-  Student    Student?
-  Teacher    Teacher?
+  id             String   @id @default(uuid())
+  email          String   @unique @db.NVarChar(100)
+  name           String   @db.NVarChar(100)
+  phone          String   @db.NVarChar(14)
+  gender         String   @db.NVarChar(20)
+  skills         String   @db.NVarChar(100)
+  certifications String   @db.NVarChar(100)
+  birthday       DateTime
+  cpf            String   @db.NVarChar(14)
+  created_at     DateTime @default(now())
+  updated_at     DateTime @updatedAt
+  Student        Student?
+  Teacher        Teacher?
 
   @@map("users")
 }
